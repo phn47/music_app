@@ -1,0 +1,83 @@
+Tổng thể
+.add-category-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.add-category-container h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.add-category-form {
+  text-align: left;
+}
+
+.add-category-form .form-group {
+  margin-bottom: 20px;
+}
+
+.add-category-form label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.add-category-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.add-category-form input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.add-category-form button {
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-category-form button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.add-category-form button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.dabiansong-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .song-details {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .song-thumbnail {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .audio-control {
+    margin-bottom: 15px;
+  }
+  
+  .song-info h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .unhide-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unhide-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    color: #4caf50;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

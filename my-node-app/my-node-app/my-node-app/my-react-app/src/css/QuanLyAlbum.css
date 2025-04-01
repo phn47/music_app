@@ -1,0 +1,69 @@
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid #eee;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding: 12px 8px;
+}
+
+.table tbody td {
+    padding: 12px 8px;
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn-link {
+    color: #1A73E8;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #1557b0;
+}
+
+.pagination {
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.page-link {
+    border: none;
+    padding: 8px 16px;
+    color: #1A73E8;
+}
+
+.page-item.active .page-link {
+    background-color: #1A73E8;
+    border-radius: 6px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #1A73E8;
+    box-shadow: 0 0 0 0.2rem rgba(26, 115, 232, 0.25);
+}

@@ -1,0 +1,63 @@
+
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-links {
+    margin-top: 20px;
+  }
+  
+  .home-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .home-links a:hover {
+    text-decoration: underline;
+  }
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .shake-animation {
+    animation: shake 0.5s ease-in-out infinite;
+  }
+  /* Thêm hiệu ứng fade-in cho toàn bộ header */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Đảm bảo rằng hình nền chiếm toàn bộ màn hình */
+
+
+/* Đảm bảo rằng footer luôn chiếm chiều cao đầy đủ */
+
+
+/* Thêm hiệu ứng mờ dần vào tiêu đề và mô tả */
+.home-header h1, .home-header p {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.home-header p {
+  animation-delay: 0.5s;
+}

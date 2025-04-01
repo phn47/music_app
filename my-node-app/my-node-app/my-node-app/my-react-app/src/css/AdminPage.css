@@ -1,0 +1,104 @@
+Tổng thể
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Header */
+.admin-header {
+  background-color: #1c2833;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.admin-header nav button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-header nav button:hover {
+  background-color: #c0392b;
+}
+
+/* Main Content */
+.admin-content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9f9;
+  gap: 20px;
+  text-align: center;
+}
+
+.admin-content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.admin-button {
+  margin: 10px;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.admin-footer {
+  background-color: #1c2833;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-header, .admin-footer {
+    padding: 10px 20px;
+  }
+
+  .admin-header h2 {
+    font-size: 20px;
+  }
+
+  .admin-button {
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
